@@ -1,0 +1,151 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: url("./fondo.jpg");
+}
+
+.venta-emp-locales::after{
+    color:blueviolet;
+    font-size: small;
+    content: " ( Taller 'Venta de empresas locales' )";
+
+}
+
+.proyeccion-impts::after{
+    color: red;
+    font-size: small;
+    content: " ( Taller 'Proyección de impuestos finales AT2023' )";
+}
+
+.tg-14d8::after{
+    color: blue;
+    font-size: small;
+    content: " ( Taller 'Término de giro 14D N°8' )";
+}
+
+.f22-at2023::after{
+    color: rgb(1, 87, 51);
+    font-size: small;
+    content: " ( Taller 'F22 AT2023' )";
+}
+
+.f-excel::after{
+    color: rgb(145, 4, 103);
+    font-size: small;
+    content: " ( Taller 'Manejo de 10 fórmulas excel' )";
+}
+
+.rre2023::after{
+    color: rgb(173, 60, 7);
+    font-size: small;
+    content: " ( Taller 'Confección de registro de rentas empresariales AT2023 desde cero' )";
+}
+
+.afin-2023::after{
+    color: rgb(37, 7, 173);
+    font-size: small;
+    content: " ( Taller 'Análisis financiero' )";
+}
+
+.dja-1835-1948::after{
+    color: rgb(43, 8, 124);
+    font-size: small;
+    content: " ( Taller 'DJA 1835 y 1948 (AT2023)' )";
+}
+
+.tg14-d3::after{
+    color: rgb(0, 173, 14);
+    font-size: small;
+    content: " ( Repaso término de giro 14 D N°3 - Propyme general )";  
+}
+
+.tg14-d3-e::after{
+    color: rgb(0, 173, 14);
+    font-size: small;
+    content: " ( Acceso anticipado: Término de giro 14 D N°3 - Propyme general )";  
+}
+
+.r-a-el::after{
+    color: rgb(81, 99, 1);
+    font-size: small;
+    content: " ( Contenido adicional )";  
+}
+
+.osfl::after{
+    color: rgb(218, 98, 0);
+    font-size: small;
+    content: " ( Aspectos tributarios de las organizaciones sin fines de lucro (OSFL) )";  
+}
+
+.iec::after{
+    color: rgb(97, 180, 20);
+    font-size: small;
+    content: " ( Introducción a la recuperación del IEC Diésel )";  
+} 
+
+.rrpp-rreef::after{
+    color: rgb(112, 10, 27);
+    font-size: small;
+    content: " ( Cambio renta presunta a renta efectiva - Aspectos tributarios )";  
+}
+
+.c-se::after{
+    color: rgb(112, 10, 27);
+    font-size: small;
+    content: " ( Clase adicional - Análisis de casos de servicios extranjeros )";  
+}
+
+.container-imgs{
+    display: flex;
+    justify-content: center;
+}
+
+
+.owl{
+    width: 100px;
+}
+.logo{
+    width: 350px;
+}
+
+section{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subtitle{
+    margin-top: 15px;
+}
+
+input{
+    width: 50vw;
+    padding: 10px;
+    outline: none;
+    border: 5px solid #CCD1E4;
+    font-weight: 600;
+}
+
+#listaArticulos{
+
+    margin-top: 20px;
+    list-style: none;
+    color: black;
+    text-align: left;
+}
+li{
+    margin: 5px 0;
+}
+
+.filtro{
+    display: none;
+}
+
